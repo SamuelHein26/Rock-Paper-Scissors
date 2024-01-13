@@ -1,0 +1,82 @@
+body {
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(70, 11%, 11%);
+}
+
+body h1 {
+  color: rgb(37, 184, 37);
+}
+
+.choices {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.choices button {
+  font-size: 5rem;
+  margin: 0 16px;
+  border-radius: 50%;
+  border-color: blue;
+  background-color: hsl(215, 100%, 50%);
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.choices button:hover {
+  background-color: hsl(265, 87%, 65%);
+  border-color: hsl(0, 79%, 55%);
+}
+
+#playerDisplay,
+#computerDisplay {
+  font-size: 2.5rem;
+  margin: 16px 0;
+}
+
+#resultDisplay {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 8px;
+}
+
+.pointcontainer {
+  display: flex;
+  gap: 40px;
+}
+
+#playerPoint,
+#computerPoint {
+  font-size: 1rem;
+  margin-top: 30px;
+}
+
+#winnerDisplay {
+  margin-top: 16px;
+  font-size: 2.5rem;
+}
+
+#playagain {
+  font-size: 1.5rem;
+  border-radius: 20px;
+  width: 150px;
+  margin-top: 8px;
+  border-color: rgb(105, 105, 174);
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.greentext {
+  color: hsl(120, 75%, 44%);
+}
+
+.redtext {
+  color: hsl(0, 93%, 56%);
+}
